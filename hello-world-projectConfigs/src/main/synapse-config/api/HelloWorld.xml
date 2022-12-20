@@ -11,15 +11,4 @@
         <outSequence/>
         <faultSequence/>
     </resource>
-    <resource methods="POST">
-        <inSequence>
-            <payloadFactory media-type="json">
-                <format>{"Hello":"Integation"}</format>
-                <args/>
-            </payloadFactory>
-            <respond/>
-        </inSequence>
-        <outSequence/>
-        <faultSequence/>
-    </resource>
 </api>
